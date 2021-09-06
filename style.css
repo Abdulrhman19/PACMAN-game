@@ -1,4 +1,16 @@
+body {
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 1024px;
+    margin: auto;
+}
+
+h3 {
+    color: white;
+    margin: auto;
+}
+
 .grid {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 560px;
@@ -29,4 +41,29 @@
 .pac-man {
     background-color: yellow;
     border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border: 0;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0;
+}
+
+.inky {
+    background-color: cyan;
+    border: 0;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: 0;
 }
